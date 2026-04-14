@@ -36,7 +36,7 @@ printing information about your hardware, os, etc.
 - Subsysten
 - Driver
 - Revisions
-- 
+
 #### Vulkan
 - API version
 - Driver
