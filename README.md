@@ -112,5 +112,46 @@ lspci, vulkaninfo, glxinfo
 ## Optional
 Battery (for laptops): upower
 
+### **Arch Linux / Manjaro** (pacman)
+```bash
+pacman -Sy --noconfirm bc gawk sed findutils iproute2 iw bluez-utils pciutils vulkan-tools mesa-utils upower net-tools
+```
+
+### **Debian / Ubuntu / Linux Mint** (apt)
+```bash
+apt update && apt install -y bc gawk sed findutils iproute2 iw bluez pciutils vulkan-tools mesa-utils upower net-tools
+```
+
+### **Fedora** (dnf)
+```bash
+dnf install -y bc gawk sed findutils iproute iw bluez pciutils vulkan-tools mesa-libGLU upower net-tools
+```
+
+### **RHEL / CentOS 7** (yum)
+```bash
+yum install -y bc gawk sed findutils iproute iw bluez pciutils vulkan-tools mesa-libGLU upower net-tools
+```
+
+### **RHEL 8+ / CentOS 8+** (dnf)
+```bash
+dnf install -y bc gawk sed findutils iproute iw bluez pciutils vulkan-tools mesa-libGLU upower net-tools
+```
+
+### **openSUSE (Tumbleweed/Leap)** (zypper)
+```bash
+zypper install -y bc gawk sed findutils iproute2 iw bluez pciutils vulkan-tools Mesa-utils upower net-tools
+```
+
+### **Alpine Linux** (apk)
+```bash
+apk add --no-cache bc gawk sed findutils iproute2 iw bluez pciutils vulkan-tools mesa-gl upower net-tools
+```
+
+### **Void Linux** (xbps)
+```bash
+xbps-install -Sy bc gawk sed findutils iproute2 iw bluez pciutils vulkan-tools mesa-dri upower net-tools
+```
+
+
 ---
 
