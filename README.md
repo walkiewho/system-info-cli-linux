@@ -114,7 +114,7 @@ Battery (for laptops): upower
 
 ### **Arch Linux / Manjaro** (pacman)
 ```bash
-pacman -Sy --noconfirm bc gawk sed findutils iproute2 iw bluez-utils pciutils vulkan-tools mesa-utils upower net-tools
+pacman -Sy --noconfirm bc gawk sed findutils iproute2 iw bluez-utils pciutils vulkan-tools mesa-utils upower net-tools inetutils
 ```
 
 ### **Debian / Ubuntu / Linux Mint** (apt)
